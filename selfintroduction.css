@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+.header {
+    margin: 10px;
+
+    height: 400px;
+    overflow:hidden;
+    background: url("./images/background.jpg");
+    text-align: center;
+}
+.change .active{
+    display: block;
+}
+.nav .act{
+    color: crimson;
+    border-bottom: 2px crimson solid;
+}
+.header .photo {
+    width:130px;
+    height:130px;
+    margin: 100px auto 10px;
+    border:10px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.photo img{
+    width: 100%;
+    transition-duration: 0.3s ;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.photo img:hover{
+    transform: rotate(360deg);
+}
+.header .name{
+    font-size: 40px;
+    color:black;
+    margin-bottom: 15px;
+}
+.header p{
+    font-size: 16px;
+    color: #6d6f70;
+}
+
+.nav{
+    position: relative;
+    margin:10px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.nav .float{
+    text-align: center;
+}
+.nav .float ul li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0 10px;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.nav ul li:hover{
+    color:rgb(0, 211, 211);
+}
+.blank1{
+    display: none;
+}
+.introduction{
+    margin: 20px 10px 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    clear:both;
+}
+.introduction .selfphoto{
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-top: 3px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.introduction .selfphoto img{
+    width:98%;
+}
+.introduction .information{
+    margin-left: 200px;
+    float: left;
+}
+.introduction .information h3{
+    margin-top: 100px;
+    font-size: 70px;
+    letter-spacing: 50px;
+    font-weight: 800;
+    margin-bottom: 70px;
+    color: dimgrey;
+}
+.introduction .information div{
+    margin-bottom: 30px;
+}
+.introduction .information span{
+    font-size: 30px;
+    color: rgb(55, 55, 55);
+}
+.achievements{
+    padding: 30px 0;
+    background-color:#e0e0e0;
+    text-align: center;
+}
+.achievements h3{
+    margin-left: 100px;
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 800;
+}
+.achievements ul{
+    text-align: center;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+.achievements ul li{
+    display: inline-block;
+    vertical-align:middle;
+    margin: 20px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.blank2{
+    display: none;
+    margin:10px;
+    text-align: center;
+    background-color:#c6c6c6;
+}
+.blank2 .question{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 40px 100px;
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    color: #6d6f70;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.blank2 h3{
+    padding: 20px;
+    font-size: 25px;
+}
+.blank2 p{
+    padding: 20px;
+    padding-top: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.blank2 .reward h3{
+    letter-spacing: 2px;
+}
+.blank2 .reward #love{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-indent: 100px;
+}
+.blank3{
+    display: none;
+    text-align: center;
+    margin: 40px 10px;
+}
+.blank3 .picture{
+    display: inline-block;
+    width:300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.blank3 .picture img:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.blank3 .picture img{
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
